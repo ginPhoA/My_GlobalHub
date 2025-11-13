@@ -1,41 +1,8 @@
-# Node modules
+# Ignore files and directories created by build tools and editors
 node_modules/
-
-# Debug logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Electron build output
-out/
 dist/
+out/
 build/
-release/
-*.asar
-
-# Compiled binary addons
-build/Release
-
-# Optional eslint cache
-.eslintcache
-
-# Optional stylelint cache
-.stylelintcache
-
-# dotenv environment variables file
-.env
-.env.*
-
-# System / OS files
+.vscode/
 .DS_Store
 Thumbs.db
-
-# VS Code settings
-.vscode/
