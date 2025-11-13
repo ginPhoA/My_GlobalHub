@@ -11,15 +11,17 @@ const createWindow = () => {
     height: 900,
     webPreferences: {
         preload: path.join(__dirname, 'preload.js'), // Preload script to be loaded before other scripts run in the window
-        contextIsolation: true, // Security measure to isolate context between main and renderer processes
-        nodeIntegration: false // Security measure to prevent Node.js integration in renderer process
+        contextIsolation: true, // Isolates context between main and renderer processes for security
+        nodeIntegration: false // Disables Node.js integration in renderer for security
     }
   })
 
   win.loadFile('index.html')
+
+  win.setMenuBarVisibility(false); // Hides the menu bar
 }
 
-// On macOS, re-create a window when the dock icon is clicked and there are no other windows open
+// When ready, create the browser window and set up IPC handlers
 app.whenReady().then(() => {
   ipcMain.handle('ping', () => 'pong')
   createWindow()

@@ -7,7 +7,7 @@ contextBridge.exposeInMainWorld('versions', {
   node: () => process.versions.node,
   chrome: () => process.versions.chrome,
   electron: () => process.versions.electron,
-  ping: () => console.log('ping')
+  ping: () => ipcRenderer.invoke('ping') // Function to send 'ping' message to main process and receive 'pong' response
 
   // Can also expose variables, not just functions
 })
