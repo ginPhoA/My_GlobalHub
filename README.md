@@ -39,7 +39,15 @@ MY_GLOBALHUB/
 I recommend using a text-editor like <b>Visual Studio Code</b>, however feel free to use what you're comfortable with
 
 <b>Node.js + npm</b>  
-| [Windows Installer (.msi)](https://nodejs.org/en/download) | macOS 12+ ([Homebrew](https://brew.sh/), [nvm](https://github.com/nvm-sh/nvm)) 
+```md
+### Latest release
+
+| Platform        | Downloads |
+|-----------------|-----------|
+| **Windows 10+** | [Windows 10+ (x64)](https://example.com/windows-download) |
+| **macOS 12+**   | [Intel](https://example.com/macos-intel) · [Apple Silicon](https://example.com/macos-arm) |
+| **Linux**       | [Linux (x64)](https://example.com/linux-download) |
+```
 
 #### Verify Installation
 ```bash
