@@ -26,8 +26,9 @@ The aim of the project is to rebuild and strengthen my individual coding skills 
 MY_GLOBALHUB/
 │
 ├── app/
-│   ├── home_page/
-│   ├── css/
+│   ├── pages/
+│   ├── styles/
+│   ├── assets/
 │   └── scripts/
 │
 ├── main.js            # Main Electron process
