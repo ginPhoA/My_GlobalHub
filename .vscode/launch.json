@@ -1,0 +1,44 @@
+// Main + renderer will launch when selectrin "Run and Debug" 
+
+/**
+ * Main is used to start the main process and also expose port 9222 for remote debugging (--remote-debugging-port=9222). 
+   This is the port that we will use to attach the debugger for the Renderer. Because the main process is a Node.js process, the type is set to node
+
+ * Renderer is used to debug the renderer process. Because the main process is the one that creates the process, we have to "attach" to it ("request": "attach") 
+   instead of creating a new one. The renderer process is a web one, so the debugger we have to use is chrome
+
+ * For more information, visit: https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app
+ */
+ 
+{
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "Main + renderer",
+      "configurations": ["Main", "Renderer"],
+      "stopAll": true
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Renderer",
+      "port": 9222,
+      "request": "attach",
+      "type": "chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Main",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+      "windows": {
+        "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
+      },
+      "args": [".", "--remote-debugging-port=9222"],
+      "outputCapture": "std",
+      "console": "integratedTerminal"
+    }
+  ]
+}

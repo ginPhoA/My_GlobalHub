@@ -1,0 +1,24 @@
+{
+  "name": "my-globalhub",
+  "version": "1.0.0",
+  "description": "A personal application built using the Electron framework",
+  "homepage": "https://github.com/ginPhoA/My_GlobalHub#readme",
+  "bugs": {
+    "url": "https://github.com/ginPhoA/My_GlobalHub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginPhoA/My_GlobalHub.git"
+  },
+  "license": "ISC",
+  "author": "Andrew Phommarath",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^39.1.2"
+  }
+}

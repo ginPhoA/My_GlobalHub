@@ -1,0 +1,8 @@
+# Ignore files and directories created by build tools and editors
+node_modules/
+dist/
+out/
+build/
+.vscode/
+.DS_Store
+Thumbs.db
