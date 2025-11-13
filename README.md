@@ -39,11 +39,10 @@ MY_GLOBALHUB/
 I recommend using a text-editor like <b>Visual Studio Code</b>, however feel free to use what you're comfortable with
 
 <b>Node.js + npm</b>  
-```md
+
 [Windows 10+ (x64)](https://nodejs.org/en/download/) |
 [macOS 12+ (Homebrew)](https://brew.sh/) |
 [macOS 12+ (svm)](https://github.com/nvm-sh/nvm) |
-```
 
 #### Verify Installation
 ```bash
