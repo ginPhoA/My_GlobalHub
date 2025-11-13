@@ -2,6 +2,10 @@
 const information = document.getElementById('info')
 information.innerText = `This app is using Chrome (v${versions.chrome()}), Node.js (v${versions.node()}), and Electron (v${versions.electron()})`
 
+document.getElementById('nav-main').addEventListener('click', () => {
+  window.location.href = 'app/pages/main.html'; // Navigate to main.html page
+});
+
 // Async function to demonstrate IPC communication between renderer and main process through 'ping' channel we defined in main.js + renderer.js
 const func = async () => {
   const response = await window.versions.ping()
