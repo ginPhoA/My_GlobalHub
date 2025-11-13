@@ -7,8 +7,8 @@ const path = require('path');
 // Reusable function to create a new browser window with browserwindow module
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1440,
+    height: 900,
     webPreferences: {
         preload: path.join(__dirname, 'preload.js'), // Preload script to be loaded before other scripts run in the window
         contextIsolation: true, // Security measure to isolate context between main and renderer processes
