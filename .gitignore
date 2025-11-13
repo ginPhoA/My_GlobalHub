@@ -1,20 +1,41 @@
-# Node stuff
+# Node modules
 node_modules/
+
+# Debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
 # Electron build output
-dist/
 out/
+dist/
+build/
 release/
 *.asar
 
-# System files
+# Compiled binary addons
+build/Release
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# dotenv environment variables file
+.env
+.env.*
+
+# System / OS files
 .DS_Store
 Thumbs.db
 
-# VSCode
+# VS Code settings
 .vscode/
-.history/
