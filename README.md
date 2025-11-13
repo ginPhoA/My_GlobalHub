@@ -40,13 +40,9 @@ I recommend using a text-editor like <b>Visual Studio Code</b>, however feel fre
 
 <b>Node.js + npm</b>  
 ```md
-### Latest release
-
-| Platform        | Downloads |
-|-----------------|-----------|
-| **Windows 10+** | [Windows 10+ (x64)](https://example.com/windows-download) |
-| **macOS 12+**   | [Intel](https://example.com/macos-intel) · [Apple Silicon](https://example.com/macos-arm) |
-| **Linux**       | [Linux (x64)](https://example.com/linux-download) |
+[Windows 10+ (x64)](https://nodejs.org/en/download/) |
+[macOS 12+ (Homebrew)](https://brew.sh/) |
+[macOS 12+ (svm)](https://github.com/nvm-sh/nvm) |
 ```
 
 #### Verify Installation
