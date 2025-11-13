@@ -13,6 +13,7 @@ The aim of the project is to rebuild and strengthen my individual coding skills 
   - [Verify Installation](#verify-installation)
 - [Running Locally](#running-locally)
 
+## Technologies
 ### Tech Stack
 - <b>Electron</b> - Desktop application framework
 - <b>HTML / CSS / JavaScript</b> - UI + UX logic 
