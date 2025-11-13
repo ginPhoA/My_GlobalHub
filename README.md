@@ -1,5 +1,9 @@
 # My_GlobalHub
 
+## Overview
+<b>My_GlobalHub</b> is a <u>locally-hosted</u> Electron desktop application which acts as a central hub for launching and managing daily-used applications (e.g., Spotify, Chrome, Steam, etc.).   
+The aim of the project is to rebuild and strengthen my individual coding skills by working on something fun and practical, while developing and using what I've learnt during my time at University.
+
 ## Table of Content's
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
@@ -8,10 +12,6 @@
   - [Node.js + npm](#nodejs--npm)
   - [Verify Installation](#verify-installation)
 - [Running Locally](#running-locally)
-
-## Overview
-<b>My_GlobalHub</b> is a <u>locally-hosted</u> Electron desktop application which acts as a central hub for launching and managing daily-used applications (e.g., Spotify, Chrome, Steam, etc.).   
-The aim of the project is to rebuild and strengthen my individual coding skills by working on something fun and practical, while developing and using what I've learnt during my time at University.
 
 ### Tech Stack
 - <b>Electron</b> - Desktop application framework
