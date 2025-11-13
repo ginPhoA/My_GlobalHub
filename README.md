@@ -20,7 +20,7 @@ The aim of the project is to rebuild and strengthen my individual coding skills 
 I recommend using a text-editor like <b>Visual Studio Code</b>, however feel free to use what you're comfortable with'
 
 <b>Node.js + npm</b>
-If not installed already
+If not installed already  
 ➡️ Head to `https://nodejs.org/en/download` to install both Node.js thats bundled with an npm package manager on your system. 
 - Select **"Windows Installer (.msi)** if you're on Windows
 - Select (Will update for macOS Later)
