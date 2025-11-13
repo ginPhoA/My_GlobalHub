@@ -38,8 +38,6 @@ MY_GLOBALHUB/
 └── README.md          # Project documentation
 ```
 
----
-
 ### Getting Started
 I recommend using a text-editor like <b>Visual Studio Code</b>, however feel free to use what you're comfortable with
 
@@ -60,8 +58,6 @@ npm -v
 node v24.11.1
 npm  11.6.2
 ```
-
----
 
 ### Running Locally
 1. Install Required Dependencies
