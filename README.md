@@ -4,8 +4,6 @@
 1. [Overview](#overview)
 2. [Tech Stack](#tech-stack)
 
----
-
 ## Overview
 <b>My_GlobalHub</b> is a <u>locally-hosted</u> Electron desktop application which acts as a central hub for launching and managing daily-used applications (e.g., Spotify, Chrome, Steam, etc.).   
 The aim of the project is to rebuild and strengthen my individual coding skills by working on something fun and practical, while developing and using what I've learnt during my time at University.
@@ -21,6 +19,24 @@ The aim of the project is to rebuild and strengthen my individual coding skills 
 
 ---
 
+### Project Structure
+```graphql
+MY_GLOBALHUB/
+│
+├── app/
+│   ├── home_page/
+│   ├── css/
+│   └── scripts/
+│
+├── main.js            # Main Electron process
+├── preload.js         # Exposes secure APIs to renderer
+├── renderer.js        # Renderer logic for the UI
+├── package.json
+├── package-lock.json
+├── index.html         # Initial page loaded by Electron
+└── README.md          # Project documentation
+```
+
 ### Getting Started
 I recommend using a text-editor like <b>Visual Studio Code</b>, however feel free to use what you're comfortable with
 
@@ -29,8 +45,6 @@ If not installed already
 ➡️ Head to `https://nodejs.org/en/download` to install both Node.js thats bundled with an npm package manager on your system. 
 - Select **"Windows Installer (.msi)"** if you're on Windows
 - Select (Will update for macOS Later)
-
----
 
 #### Verify Installation
 ```bash
