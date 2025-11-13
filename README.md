@@ -15,16 +15,24 @@ The aim of the project is to rebuild and strengthen my individual coding skills 
 - <b>Node.js</b> - Backend JavaScript runtime
 - <b>npm</b> - Dependency Manager
 - <b>Git + Github</b> - Source and Version control
-<br>
 
 ### Getting Started
-#### Code Editor
-I recommend opening the code in a text-editor like <b>Visual Studio Code</b>, however feel free to use what you personally prefer
+I recommend using a text-editor like <b>Visual Studio Code</b>, however feel free to use what you're comfortable with'
 
-#### Node.js + npm
-You will need to install <b>Node.js</b> runtime, along with npm. You can head to `https://nodejs.org/en/download` to install both Node.js thats bundled with an npm package manager on your system. 
-- Select "Windows Installer (.msi)
-<br>
+<b>Node.js + npm</b>
+If not installed already
+➡️ Head to `https://nodejs.org/en/download` to install both Node.js thats bundled with an npm package manager on your system. 
+- Select **"Windows Installer (.msi)** if you're on Windows
+- Select (Will update for macOS Later)
+
+#### Verify Installation
+```bash
+node -v
+npm -v
+```
+<b>Expected Output</b>
+- node ➡️ v24.11.1
+- npm  ➡️ 11.6.2
 
 ### Running Locally
 
