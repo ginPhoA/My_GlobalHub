@@ -1,4 +1,4 @@
-# My_GlobalHub
+# Desktop_GlobalHub
 
 ## Overview
 <b>My_GlobalHub</b> is a <u>locally-hosted</u> Electron desktop application which acts as a central hub for launching and managing daily-used applications (e.g., Spotify, Chrome, Steam, etc.).   
